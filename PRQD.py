@@ -34,7 +34,7 @@ for i in range(len(hand_string_list)) :
 cards_string_list = []
 cards_combination_lists = list(itertools.permutations(hand_int, fn - 1))
 print(cards_combination_lists)
-
+ 
 cards_int_list = list(set(cards_combination_lists))
 cards_int_list.sort(reverse=True)
 print(cards_int_list)
