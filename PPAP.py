@@ -63,6 +63,6 @@ while k == 0 :
             j  = 0
             if i == len(top_roll_list) :
                 print()
-                print("  NOTHING 4336 PRIME ....")
+                print("  NOTHING " + cnt_roll_strn + " PRIME ....")
                 print()
                 k = - 1
